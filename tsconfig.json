@@ -1,0 +1,16 @@
+{
+  "files": [],
+  "references": [{ "path": "./tsconfig.app.json" }, { "path": "./tsconfig.node.json" }],
+  "compilerOptions": {
+    "jsx": "react-jsx",
+    "allowImportingTsExtensions": false,
+    "esModuleInterop": true,
+    "moduleResolution": "node",
+    "types": ["jest", "node", "@testing-library/jest-dom"],
+    "module": "ESNext",
+    "allowJs": true,
+    "skipLibCheck": true,
+    "isolatedModules": true,
+    "strict": true
+  }
+}
